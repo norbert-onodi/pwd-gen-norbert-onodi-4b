@@ -1,4 +1,4 @@
-const genPwd = (length) =>{
+const genPwd = (length = 20) =>{
     
     const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let pwd='';
